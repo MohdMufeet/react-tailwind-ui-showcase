@@ -2,9 +2,9 @@ import React from 'react'
 import { TiArrowMinimiseOutline } from "react-icons/ti";
 import { FaArrowRight } from "react-icons/fa";
 
-const Navbutton = () => {
+const Navbutton = ({isToggle}) => {
   return (
-    <button className='hidden md:flex gap-2 border border-gray-400 rounded hover:border-gray-600 items-center justify-center px-4 py-2 hover:shadow-sm'>
+    <button className={`${isToggle ? "hidden" : "flex"} md:flex gap-2 border border-gray-400 rounded hover:border-gray-600 items-center justify-center px-4 py-2 hover:shadow-sm`}>
             <TiArrowMinimiseOutline />
             Explore More
             <FaArrowRight />
