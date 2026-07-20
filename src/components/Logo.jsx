@@ -1,11 +1,11 @@
-import React from 'react'
+import React from "react";
 
 const Logo = () => {
   return (
     <>
-       <p className='text-blue-700 font-bold text-3xl'>Saas</p>
+      <p className="text-blue-700 font-bold text-3xl">Saas</p>
     </>
-  )
-}
+  );
+};
 
-export default Logo
+export default Logo;
