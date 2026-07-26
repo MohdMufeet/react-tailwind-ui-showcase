@@ -2,6 +2,7 @@ import React from 'react'
 import { FaFileCode } from "react-icons/fa";
 import { FaLaptop } from "react-icons/fa6";
 import { PiHandGrabbingLight } from "react-icons/pi";
+
 const Optional = () => {
   return (
     <div className="hidden md:flex gap-6 mt-4">

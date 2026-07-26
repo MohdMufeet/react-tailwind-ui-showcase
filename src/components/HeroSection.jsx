@@ -5,7 +5,7 @@ import Optional from "./Optional";
 
 const HeroSection = () => {
   return (
-    <div className=" h-screen bg-gradient-to-br from-purple-50 via-orange-50 to-transparent flex md:justify-center justify-start">
+    <div className=" h-screen bg-gradient-to-b from-purple-50 via-orange-50 to-transparent flex md:justify-center justify-start">
       <div className="main-container max-w-3xl mx-auto px-6 py-20 text-left md:text-center flex flex-col gap-4 md:items-center">
 
         <div className="flex gap-2 items-center justify-center border border-yellow-500 
