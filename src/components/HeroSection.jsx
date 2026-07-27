@@ -1,6 +1,7 @@
 import React from "react";
 import { FaArrowRight } from "react-icons/fa";
 import Optional from "./Optional";
+import SlidingSection from "./SlidingSection";
 
 
 const HeroSection = () => {
@@ -25,7 +26,6 @@ const HeroSection = () => {
         <button className="border py-2 px-8 rounded-lg font-medium bg-white text-gray-900 hover:bg-gray-100">Read Docs</button>
       </div>
       </div>
-
     </div>
   );
 };
