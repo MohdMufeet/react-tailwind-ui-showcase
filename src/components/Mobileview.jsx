@@ -4,6 +4,7 @@ import Logo from "./Logo";
 import NavList from "./NavList";
 import Navbutton from "./Navbutton";
 
+
 const Mobileview = ({ handleToggle }) => {
   return (
     <div className="md:hidden bg-white h-screen w-full z-50 absolute top-0 left-0 px-6 py-4">

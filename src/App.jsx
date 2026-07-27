@@ -5,12 +5,17 @@ import heroImg from './assets/hero.png'
 import './App.css'
 import Navbar from './components/Navbar'
 import HeroSection from './components/HeroSection'
+import SlidingSection from './components/SlidingSection'
 
 function App() {
   return(
     <>
       <Navbar/>
      <HeroSection/>
+     <SlidingSection/>
+     <HeroSection/>
+     <HeroSection/>
+
     </>
   )
 }
