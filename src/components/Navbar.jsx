@@ -11,7 +11,7 @@ const Navbar = () => {
   };
   return (
     <>
-      <header className="flex justify-between items-center bg-white px-6 py-4 shadow-lg sticky top-0 ">
+      <header className="flex justify-between items-center bg-white px-6 py-4 shadow-lg sticky top-0 z-10">
         <Logo />
 
         <Navitems />
