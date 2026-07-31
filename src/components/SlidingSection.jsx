@@ -18,7 +18,7 @@ const SlidingSection = () => {
 
     // Reusable Box Component
     const Card = ({ label = "Blogger" }) => (
-        <div className="box bg-[#f1f1f1] border border-black flex items-center justify-center flex-col p-4 rounded-md min-w-[120px]">
+        <div className="box bg-[#f1f1f1] border border-black flex items-center justify-center flex-col px-4 py-2 rounded-md min-w-[120px]">
             <div className="icon text-4xl">
                 <ImBlogger2 />
             </div>
@@ -29,7 +29,7 @@ const SlidingSection = () => {
     const cardsArray = Array.from({ length: 12 });
 
     return (
-        <div ref={containerRef} className="w-full bg-gray-900 flex flex-col my-4 gap-6 overflow-hidden py-8">
+        <div ref={containerRef} className="w-full bg-gray-900 flex flex-col my-4 gap-6 overflow-hidden py-8 px-4">
             <p className="text-center text-2xl text-white my-2 font-bold">OUR Companies</p>
 
             {/* Row 1 - Left ki taraf slide hogi */}
@@ -58,7 +58,7 @@ const SlidingSection = () => {
                 className="flex items-center gap-4 px-6"
             >
                 {cardsArray.map((_, i) => (
-                    <Card key={`row3-${i}`} label="HIi" />
+                    <Card key={`row3-${i}`} label="Blogger" />
                 ))}
             </motion.div>
         </div>
