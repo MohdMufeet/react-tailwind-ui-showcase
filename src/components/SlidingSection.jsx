@@ -1,6 +1,7 @@
 import React, { useRef } from 'react';
 import { ImBlogger2 } from "react-icons/im";
 import { motion, useScroll, useTransform } from "framer-motion"; 
+import Card from './Cart';
 
 const SlidingSection = () => {
     const containerRef = useRef(null);
@@ -16,15 +17,7 @@ const SlidingSection = () => {
     const xRow2 = useTransform(scrollYProgress, [0, 1], [-200, 0]);
     const xRow3 = useTransform(scrollYProgress, [0, 1], [0, -300]);
 
-    // Reusable Box Component
-    const Card = ({ label = "Blogger" }) => (
-        <div className="box bg-[#f1f1f1] border border-black flex items-center justify-center flex-col px-4 py-2 rounded-md min-w-[120px]">
-            <div className="icon text-4xl">
-                <ImBlogger2 />
-            </div>
-            <p className="font-semibold text-gray-800">{label}</p>
-        </div>
-    );
+ 
 
     const cardsArray = Array.from({ length: 12 });
 
